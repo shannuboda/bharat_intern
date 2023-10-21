@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>TASK - 1</title>
+</head>
+<body >
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-6 h1"><img src="./assets/temp.png" alt="" width="50" height="34" ><strong>TEMPERATURE CONVERTER</strong></span>
+        </div>
+      </nav>
+      <figure class="text-center">
+        <blockquote class="blockquote">
+          <h3>WELCOME TO TEMPERATURE CONVERTER</h3>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+            Temperature Transformation Hub: <cite title="Source Title">Celsius, Fahrenheit, and Kelvin Conversion</cite>
+        </figcaption>
+      </figure>
+      <div class="temp-box">
+        <img src="./assets/temp.png" alt="">
+        <div class="form">
+          <div class="input-box">
+            <input type="text" name="" required="" id="myinput">
+            <label>TEMPERATURE</label>
+          </div>
+          <div class="input-box">
+            <label class="convert">Converting from:</label>
+            <select name="select" id="temp-select">
+                <option value="">select</option>
+                <option value="Celsius">Celsius</option>
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Kelvin">Kelvin</option>
+            </select>
+           
+          </div><center>
+          <button class="btn btn-primary" id="convert-button">
+                CONVERT 
+            </button></center>
+          </div>
+      </div>
+      <br>
+      <div class="temp-box" style="margin-top: 14rem; color: #fff;display: flex;justify-content: space-around;">
+        <div class="cel" >
+            <h3 style="display: inline;" id="cel-data">0 </h3>
+            <span>&#x2103;</span>
+        </div>
+        <div class="farh" >
+            <h3 style="display: inline;" id="far-data">0</h3>
+            <span>&#x2109;</span>
+        </div>
+        <div class="kel" >
+            <h3 style="display: inline;" id="kel-data">0</h3>
+            <span> &#8490; </span>
+        </div>
+      </div>
+</body>
+</html>
